@@ -1,0 +1,18 @@
+p{
+    padding: 25px;
+    background-color: red;
+    color: white;
+}
+div{
+    padding: 25px;
+    background-color: blue;
+    color: black;
+    
+}
+
+span{
+    padding: 25px;
+    background-color: orange;
+    color: white;
+    
+}

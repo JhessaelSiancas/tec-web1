@@ -1,0 +1,26 @@
+/*p{
+    padding: 25px;
+    background-color: red;
+    color: white;
+}
+div{
+    padding: 25px;
+    background-color: green;
+    color: white;
+    
+}
+
+span{
+    padding: 25px;
+    background-color: green;
+    color: white;
+    
+}*/
+
+.bar{
+    padding: 25px;
+    background-color: green;
+    color: white;
+    border: black;
+    margin: 15px;
+}
