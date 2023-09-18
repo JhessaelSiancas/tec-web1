@@ -1,32 +1,24 @@
 .caja1{
-    
-    width: 250px;/*1px mide 1/96 pulgadas que son 0.0264583cm*/
+    width: 250px;
     height: 150px;
-    border: 3px solid #FFCC70;/*combina los colores red,greem,blue*/
-    /*background-color: red;*/
-    background-color: #FFCC70;/*rgba= opacidad*/
+    border: 3px solid #FFCC70;
+    background-color: #FFCC70;
 }
 .caja2{
-    
-    width: 250px;/*1px mide 1/96 pulgadas que son 0.0264583cm*/
+    width: 250px;
     height: 100px;
-    border: 3px solid #FFFADD;/*combina los colores red,greem,blue*/
-    /*background-color: red;*/
-    background-color: #FFFADD;/*rgba= opacidad*/
+    border: 3px solid #FFFADD;
+    background-color: #FFFADD;
 }
 .caja3{
-    
-    width: 250px;/*1px mide 1/96 pulgadas que son 0.0264583cm*/
+    width: 250px;
     height: 50px;
-    border: 3px solid #8ECDDD;/*combina los colores red,greem,blue*/
-    /*background-color: red;*/
-    background-color: #8ECDDD;/*rgba= opacidad*/
+    border: 3px solid #8ECDDD;
+    background-color: #8ECDDD;
 }
 .caja4{
-    
-    width: 250px;/*1px mide 1/96 pulgadas que son 0.0264583cm*/
+    width: 250px;
     height: 30px;
-    border: 3px solid #22668D;/*combina los colores red,greem,blue*/
-    /*background-color: red;*/
-    background-color: #22668D;/*rgba= opacidad*/
+    border: 3px solid #22668D;
+    background-color: #22668D;
 }
