@@ -1,0 +1,61 @@
+p{
+    color: white;
+    background-color: black;
+    width: 200px;/*tamanio del texto hacia la derecha*/
+}/*declaracion css el {} es el inicio y el fin de la apertura*/
+/*Se le puede poner cualquier nombre pero que sea coerente*/
+/**/
+.caja{
+    width: 250px;/*1px mide 1/96 pulgadas que son 0.0264583cm*/
+    height: 250px;
+    border: 3px solid rgb(255, 0, 0);/*combina los colores red,greem,blue*/
+    /*background-color: red;*/
+    background-color: rgba(255, 0, 0, 0.5);/*rgba= opacidad*/
+    /*otra herramienta para agregar colores es usar valores hexadecimales
+    tiene 6 digitos los primeros 2 son para el rojo lo siguientes 2 son para el verde y los siguientes 2 para el azul*/
+    /*el hexadecimal es el mas comun*/
+}
+.caja:hover{/*el hover hace que cuando lo senialas con el mouse el color cambia*/
+    width: 250px;/*1px mide 1/96 pulgadas que son 0.0264583cm*/
+    height: 250px;
+    border: 3px solid rgb(0, 0, 255);
+    /*background-color: red;*/
+    background-color: rgba(0, 0, 0, 1);/*rgba= opacidad*/
+    
+}
+h1{
+    position: absolute; /*el absolute hace que los otros elementos que estan despues de el se superpongan sobre el*/
+    
+}
+.caja1{
+    
+    width: 250px;/*1px mide 1/96 pulgadas que son 0.0264583cm*/
+    height: 150px;
+    border: 3px solid #FFCC70;/*combina los colores red,greem,blue*/
+    /*background-color: red;*/
+    background-color: #FFCC70;/*rgba= opacidad*/
+}
+.caja2{
+    
+    width: 250px;/*1px mide 1/96 pulgadas que son 0.0264583cm*/
+    height: 100px;
+    border: 3px solid #FFFADD;/*combina los colores red,greem,blue*/
+    /*background-color: red;*/
+    background-color: #FFFADD;/*rgba= opacidad*/
+}
+.caja3{
+    
+    width: 250px;/*1px mide 1/96 pulgadas que son 0.0264583cm*/
+    height: 50px;
+    border: 3px solid #8ECDDD;/*combina los colores red,greem,blue*/
+    /*background-color: red;*/
+    background-color: #8ECDDD;/*rgba= opacidad*/
+}
+.caja4{
+    
+    width: 250px;/*1px mide 1/96 pulgadas que son 0.0264583cm*/
+    height: 30px;
+    border: 3px solid #22668D;/*combina los colores red,greem,blue*/
+    /*background-color: red;*/
+    background-color: #22668D;/*rgba= opacidad*/
+}
