@@ -1,0 +1,29 @@
+*{
+    color: blue;
+    padding: 0px;
+    margin: 0px;
+}/*selector universal*/
+.baz{
+    color: black;
+}
+#saludo{/*el # es para seleccionar id*/
+    background-color: red;
+}
+p[title]{
+    background-color: red;
+}
+p[title="parrafo2"]{
+    background-color: green;
+}
+div[class=bar]{
+    background-color: yellow;
+}
+div[class^=baz]{
+    background-color: green;
+}
+div[class$=bar]{
+    background-color: black;
+}
+div[class*=bar]{
+    background-color: green;
+}

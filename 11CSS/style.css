@@ -25,7 +25,7 @@ p{
 }
 h1{
     position: absolute; /*el absolute hace que los otros elementos que estan despues de el se superpongan sobre el*/
-    
+    color: green;
 }
 .caja1{
     
@@ -58,4 +58,14 @@ h1{
     border: 3px solid #22668D;/*combina los colores red,greem,blue*/
     /*background-color: red;*/
     background-color: #22668D;/*rgba= opacidad*/
+}
+/*rgb esta hecho mas para la maquina
+hsl es una interpretacion mas humana del color*/
+.caja5{
+    width: 250px;
+    height: 30px;
+    border: 3px solid #22668D;
+    background-color: hsl(0, 100%, 50%);/*(color,saturacion,luminocidad)*/
+    padding: 25px;
+    color: black;
 }
