@@ -1,0 +1,30 @@
+.Cajas-Responsivas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.caja-Responsiba1{
+    width: 200px;
+    height: 100px;
+    background-color: #6499E9;
+}
+.caja-Responsiba2{
+    width: 200px;
+    height: 50px;
+    background-color: #9EDDFF;
+}
+.caja-Responsiba3{
+    width: 200px;
+    height: 300px;
+    background-color: #A6F6FF;
+    background-image: url(../RobertGreene/El\ arte\ de\ la\ seduccion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media screen and (max-width: 500px)
+{
+    .Cajas-Responsivas{
+        flex-direction: column;
+    }
+}

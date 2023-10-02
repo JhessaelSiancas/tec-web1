@@ -1,4 +1,4 @@
-*{
+/**{
     box-sizing: border-box;
 }
 
@@ -9,5 +9,56 @@
     padding: 25px;
     border: 45px solid orange;
     margin: 45px;
-
 }
+@media screen and (max-width: 450px){
+    .caja{
+        background-color: green;
+    }
+}*/
+.contenedor-flexible{
+    background-color: rgb(100,100,100);
+    display: flex;
+    flex-direction: row;
+    /*justify-content: flex-start;*/
+    /*justify-content: flex-end;*/
+    justify-content: center;
+    /*justify-content: space-around;*/  /*la distancia entre los bloques es de mitad en mitad*/
+    /*justify-content: space-evenly;*/
+    /*align-items: center;
+    flex-wrap: wrap;
+    align-content: space-around;*/
+}
+.foo{
+    width: 200px;
+    height: 200px;
+    background-color: #6499E9;
+    flex-basis: 200px;
+    flex-grow: 2;
+    flex-shrink: 2;
+}
+.bar{
+    width: 200px;
+    height: 200px;
+    background-color: #9EDDFF;
+    flex-basis: 200px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.baz{
+    width: 200px;
+    height: 200px;
+    background-color: #A6F6FF;
+    flex-basis: 200;
+    flex-grow: 1;
+    flex-shrink: 1;
+    
+    background-image: url(../RobertGreene/El\ arte\ de\ la\ seduccion.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*@media screen and (max-width: 500px)
+{
+    .contenedor-flexible{
+        flex-direction: column;
+    }
+}*/
