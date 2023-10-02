@@ -1,0 +1,13 @@
+*{
+    box-sizing: border-box;
+}
+
+.caja{
+    width: 250px;
+    height: 250px;
+    background-color: red;
+    padding: 25px;
+    border: 45px solid orange;
+    margin: 45px;
+
+}
