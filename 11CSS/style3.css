@@ -1,0 +1,25 @@
+button:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+}
+input:disabled{
+    background-color: orange;
+}
+/*span{
+    color: red;
+}*/
+p::first-line{
+    color: red;
+}
+p::first-letter{
+    color: blue;
+}
+.foo,.bar,.faz{
+    color: orange;
+    
+}
+.foo{
+    color: green;
+}
+/*cuando halla un p y un p.foo siempre va a ganar el que sea mas especifico*/

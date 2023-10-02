@@ -1,0 +1,31 @@
+/*div{
+    height: 1028px;
+    width: 657px;
+    background-color: red;
+    position: fixed;
+}*/
+.padre{
+    width: 400px;
+    height: 400px;
+    background-color: orange;
+}
+selector
+*{
+    margin: 0px;
+}
+.caja{
+    /*width: 25%; /*asi se pone al 25% de la caja superior en este case la caja padre */
+   /* height: 40%;*/
+    width: 100vw;/*asi cubre toda la pantalla*/
+    height: 100vw;
+    background-color: red;
+}
+.foo{
+    font-size: 1rem;
+}
+.bar{
+    font-size: 2rem;
+}
+.baz{
+    font-size: 3rem;
+}
